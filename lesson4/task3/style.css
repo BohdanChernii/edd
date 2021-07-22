@@ -1,8 +1,8 @@
 div{
-    display: inline;
+    display: inline-block;
 }
 span{
-    display:block;
+    display: block;
     width: 200px;
     height:100px;
     background-color: yellow;
