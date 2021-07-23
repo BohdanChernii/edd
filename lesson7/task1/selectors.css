@@ -1,3 +1,4 @@
+
 a:link{
     background-color: black;
     color: white;
@@ -6,9 +7,14 @@ a:visited{
     background-color: orange;
     color: green;
 }
-button:active,a:active{
+button:active{
     border: 3px solid red;
 }
+
+a:active{
+    border: 3px solid red;
+}
+
 a:hover{
     font-size: 24px;
 }
