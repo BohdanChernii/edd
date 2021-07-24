@@ -24,7 +24,7 @@ div{
 }
 .triangle{
   width: 1px;
-  height: 1px;
-  border: 100px solid transparent;
+  height: 50px;
+  border: 50px solid transparent;
   border-top-color:  brown;
 }
