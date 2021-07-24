@@ -7,7 +7,7 @@
   right:  50px;
 }
 
-.absolute-parent{
+.parent>.absolute-parent{
   position: absolute;
   bottom: 20px;
   right: 50px;
