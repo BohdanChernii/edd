@@ -1,4 +1,4 @@
- div{
+div{
       width: 420px;
       height: 140px;
       background-color: bisque;
@@ -7,4 +7,7 @@
       border-left: 20px aqua dashed;
       border-bottom:10px burlywood  dashed;
       border-right:20px  chartreuse solid;
+      margin: 50px 100px;
+      padding: 20px;
     }
+
