@@ -1,8 +1,9 @@
-div{
+    div{
       width: 420px;
       height: 140px;
       background-color: bisque;
-      color:black;
+      color: black;
+      box-sizing: border-box;
       border-top: 10px firebrick solid;
       border-left: 20px aqua dashed;
       border-bottom:10px burlywood  dashed;
