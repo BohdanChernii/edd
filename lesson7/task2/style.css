@@ -12,7 +12,7 @@ ul li:last-of-type span{
     color: white;
 }
 li:nth-of-type(even){
-    margin-left: 30px;
+    margin-left: 16px;
 
 }
 .paragraphs p:nth-of-type(odd){
