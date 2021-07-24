@@ -52,7 +52,7 @@ div {
 }
 .relative-parent{
   position:relative;
-  bottom: 20px;
+  top: 20px;
   left:  50px;
 }
 
@@ -62,7 +62,7 @@ div {
   right: 50px;
 }
 .fixed-parent{
-  position: fixed;
+  position: absolute;
   bottom: 20px;
   left: 30px;
 }
