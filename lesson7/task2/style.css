@@ -11,7 +11,7 @@ ul li:last-of-type span{
     background-color: black;
     color: white;
 }
-ul li:nth-of-type(even){
+ul li:nth-of-type(even)>span{
     margin-left: 16px;
 
 }
