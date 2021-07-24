@@ -6,18 +6,15 @@
     height: 40px;
     position: relative;
     box-sizing: border-box;
-}nav{
-    height: 100%;
-    position: absolute;
-    top:9px;
-     }
-.nav-item{
-    margin-top: 50%;
-    margin-left: 16px;
-    color:white;
-    display: inline;
 }
-
+.navigation{
+   line-height: 40px;
+}
+.nav-item{
+    display: inline;
+    margin-left: 16px;
+    color:white
+}
 .content{
     background-color: beige;
     height: 5000px;
@@ -60,3 +57,5 @@
  .eye_right{
      float: right;
  }
+
+
