@@ -1,30 +1,27 @@
 .pink{
-  padding-bottom: 0px;
   height: 100px;
   margin: 50px;  
   background-color:pink;
-  
+  border:2px solid black;
 }
 .green{
   height: 200px;
   margin: 50px;
   background-color: green;
- 
+  border:2px solid black; 
 }
 .yellow{
   height: 300px;
   margin: 50px;
   background-color: yellow;
- 
+  border:2px solid black;
 }
 .blue{
   height: 400px;
-  
-  background-color: blue;
   margin: 50px;
-  
+  background-color: blue;
+  border:2px solid black;
 }
 div{
- padding-bottom: 0px;
-  border:2px solid black;
+  box-sizing: border-box;
 }
