@@ -1,3 +1,4 @@
+
 .static-parent{
   position: static;
 }
@@ -7,7 +8,7 @@
   right:  50px;
 }
 
-.parent>.absolute-parent{
+.absolute-parent{
   position: absolute;
   bottom: 20px;
   right: 50px;
