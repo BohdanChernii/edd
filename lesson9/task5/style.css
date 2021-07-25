@@ -4,10 +4,13 @@
 .header{
     background-color: darkturquoise;
     height: 40px;
-    position: relative;
+    position: fixed;
+    width: 100%;
     box-sizing: border-box;
+
 }
 .navigation{
+    position: relative;
    line-height: 40px;
 }
 .nav-item{
@@ -57,5 +60,6 @@
  .eye_right{
      float: right;
  }
+
 
 
