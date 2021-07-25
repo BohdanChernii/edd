@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: stretch;
+    width: 100%;
+}
+.block{
+    height: 100px;
+    min-width: 100px;
+
+}
