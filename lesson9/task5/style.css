@@ -7,13 +7,15 @@ body{
     height: 40px;
     width: 100%;
     position: fixed;
-    z-index: 100;
+    box-sizing: border-box;
+    z-index: 2;
 }
 .nav-list{
     margin: 0;
+    line-height: 40px;
 }
 .nav-item{
-    line-height: 40px;
+    
     display: inline;
     margin: 0 0 0 16px;
     color: white;
@@ -22,15 +24,17 @@ body{
     height: 5000px;
     width: 100%;
     background-color: beige;
+    
   
 }
 .head{
     position: relative;
     height: 200px;
     width: 200px;
-    top: calc( 30% - 50px );
-    left: calc(50% - 50px );
+    top: calc( 10% - 100px );
+    left: calc(50% - 100px );
     background-color: aquamarine;
+    z-index: 1;
 }
 .ear{
     width: 40px;
@@ -61,7 +65,5 @@ body{
 .eye_right{
     right: 0;
 }
-
-
 
 
