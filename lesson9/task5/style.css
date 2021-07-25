@@ -34,7 +34,7 @@ body{
     position: absolute;
     height: 200px;
     width: 200px;
-    top: calc( 10% - 100px );
+    top: calc( 5% - 100px );
     left: calc(50% - 100px );
     background-color: aquamarine;
     z-index: 1;
