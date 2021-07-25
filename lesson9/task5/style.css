@@ -9,10 +9,10 @@ body{
     position: fixed;
     box-sizing: border-box;
     z-index: 2;
+    line-height: 40px;
 }
 .nav-list{
     margin: 0;
-    line-height: 40px;
 }
 .nav-item{
     
@@ -24,14 +24,14 @@ body{
     height: 5000px;
     width: 100%;
     background-color: beige;
-    
+    position: relative;
   
 }
 .head{
-    position: relative;
+    position: absolute;
     height: 200px;
     width: 200px;
-    top: calc( 10% - 100px );
+    top: calc( 50% - 100px );
     left: calc(50% - 100px );
     background-color: aquamarine;
     z-index: 1;
