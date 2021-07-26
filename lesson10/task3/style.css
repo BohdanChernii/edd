@@ -27,7 +27,7 @@
   list-style: none;
   margin-left:16px ;
 }
-main{
+.content{
   display: flex;
   flex-grow: 1;
   box-sizing: border-box;
@@ -38,6 +38,7 @@ main{
   background-color: pink;
   justify-content: center;
   align-items: center;
+  
 }
 .dashboard h2{
   margin: 0;
@@ -46,13 +47,11 @@ main{
   display: flex;
   background-color: grey;
   width: 200px;
- 
   flex-direction: column;
  }
 .sidebar h2 {
   display: flex;
   justify-content: center;
-  margin: 0;
   margin: 16px 0;
 }
 .sidebar ul{
