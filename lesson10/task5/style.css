@@ -6,9 +6,7 @@ header{
 }
 
 .articles-list{
-  width: 100%;
   display: flex;
-  flex-grow: 1;
   flex-wrap: wrap;
  }
 .article{
