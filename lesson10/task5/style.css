@@ -14,7 +14,7 @@ header{
 .article{
   margin: 8px;
   padding: 16px;
-  flex-basis: 20%;
+  flex-basis: 10%;
   min-width: 300px;
   background-color: bisque;
   box-sizing: border-box;
