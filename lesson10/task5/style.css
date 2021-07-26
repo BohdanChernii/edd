@@ -1,4 +1,5 @@
 *{
+
   box-sizing: border-box;
 }
 header{
@@ -9,11 +10,14 @@ header{
   display: flex;
   flex-wrap: wrap;
 }
+
+
+
 .article{
-  width: 20%;
-  margin: 8px;
+   width: 200px;
+   margin: 8px;
   padding: 16px;
-  min-width: 300px;
+  min-width: 200px;
   background-color: bisque;
   box-sizing: border-box;
   flex-grow: 1;
