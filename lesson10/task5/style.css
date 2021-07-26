@@ -10,7 +10,7 @@ header{
   flex-wrap: wrap;
  }
 .article{
-  displat: block;
+  
   margin: 8px;
   padding: 16px;
   flex-basis: 10%;
