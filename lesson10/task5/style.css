@@ -8,10 +8,10 @@ header{
 
 .articles-list{
   display: flex;
-  
+  flex-wrap: wrap;
 }
 .article{
-  width: 300px;
+  width: 20%;
   margin: 8px;
   padding: 16px;
   min-width: 300px;
