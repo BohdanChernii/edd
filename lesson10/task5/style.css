@@ -1,5 +1,4 @@
 *{
- 
   box-sizing: border-box;
 }
 header{
@@ -7,18 +6,8 @@ header{
 }
 
 .articles-list{
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-}
-
-
-
-.article{
-   flex-basis:10%;
-   margin: 8px;
-  padding: 16px;
-  min-width: 300px;
-  background-color: bisque;
-  box-sizing: border-box;
   flex-grow: 1;
-}
+  flex-wrap: wrap;
+ }
