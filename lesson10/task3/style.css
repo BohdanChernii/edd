@@ -26,7 +26,7 @@
   list-style: none;
   margin-left:16px ;
 }
-.main{
+main{
   display: flex;
   flex-grow: 1;
   box-sizing: border-box;
