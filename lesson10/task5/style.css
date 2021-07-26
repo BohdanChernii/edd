@@ -17,7 +17,7 @@ header{
    width: 300px;
    margin: 8px;
   padding: 16px;
-  min-width: 200px;
+  min-width: 300px;
   background-color: bisque;
   box-sizing: border-box;
   flex-grow: 1;
