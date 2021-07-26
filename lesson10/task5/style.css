@@ -11,3 +11,12 @@ header{
   flex-grow: 1;
   flex-wrap: wrap;
  }
+.article{
+  margin: 8px;
+  padding: 16px;
+  flex-basis: 20%;
+  min-width: 300px;
+  background-color: bisque;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
