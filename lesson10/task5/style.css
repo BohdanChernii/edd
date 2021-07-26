@@ -1,7 +1,5 @@
 *{
     box-sizing: border-box;
-   
-   
   }
   header{
     text-align: center;
@@ -13,10 +11,10 @@
     flex-direction: row;
    }
   .article{
-    
+    display: block;
     margin: 8px;
     padding: 16px;
-    flex-basis:0;
+    flex-basis:15%;
     min-width: 300px;
     box-sizing: border-box;
     background-color: bisque;
