@@ -1,0 +1,27 @@
+*{
+  margin: 0 auto;
+}
+body{
+  color: black;
+ 
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1{
+  margin: 0;
+}
+.article{
+  display: block;
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  min-width: 300px;
+  box-sizing: border-box;
+}
+.article p{
+  display: flex;
+  align-items: stretch;
+}
