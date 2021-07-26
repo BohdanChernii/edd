@@ -1,8 +1,9 @@
 
 .wraper{
+    display: flex;
     height: 100vh;
-   
-}
+    flex-direction: column;
+   }
 
 .header{
     height:40px;
@@ -28,7 +29,7 @@
 .main{
     display: flex;
     flex-grow: 1;
-    height: 100%;
+
 }
 .dashboard{
     display: flex;
