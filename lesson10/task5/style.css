@@ -1,5 +1,5 @@
 *{
-  margin: 0 auto;
+  margin: 0 ;
 }
 body{
   color: black;
@@ -10,18 +10,20 @@ header{
   justify-content: center;
   align-items: center;
 }
-header h1{
-  margin: 0;
+
+main {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  
 }
 .article{
+  width: 20%;
   display: block;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
   min-width: 300px;
-  box-sizing: border-box;
-}
-.article p{
-  display: flex;
-  align-items: stretch;
+  flex-grow: 1;
+
 }
