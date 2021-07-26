@@ -1,5 +1,4 @@
 *{
-
   box-sizing: border-box;
 }
 header{
@@ -10,8 +9,6 @@ header{
   display: flex;
   flex-wrap: wrap;
 }
-
-
 
 .article{
    width: 300px;
