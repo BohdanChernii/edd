@@ -14,7 +14,7 @@ header{
 
 
 .article{
-   flex-basis:20%;
+   flex-basis:10%;
    margin: 8px;
   padding: 16px;
   min-width: 300px;
