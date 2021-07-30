@@ -1,0 +1,19 @@
+body {
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.thumb {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 8px;
+}
+
+.thumb:hover {
+    cursor: all-scroll;
+}
