@@ -1,0 +1,7 @@
+div {
+    margin: 16px;
+}
+
+input[type="text"] {
+    display: block;
+}
