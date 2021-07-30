@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .list {
     list-style: none;
     font-size: 1.5em;
@@ -16,6 +17,24 @@
 .first {
     text-decoration: overline;
 }
+=======
+.list {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.third {
+    text-decoration: underline green;
+}
+
+.second {
+    text-decoration: line-through;
+}
+
+.first {
+    text-decoration: overline red;
+}
+>>>>>>> 5f3a8d3b73d001c3e8a584c7796d278003eb5c80
 =======
 .list {
     list-style: none;
