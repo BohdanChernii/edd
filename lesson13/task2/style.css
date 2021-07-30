@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .icon {
     width: 100px;
     height: 100px;
@@ -8,4 +9,16 @@
 
 .icon:hover {
     background-position-y: -100px;
+=======
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    background-position-x: -200px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png);
+}
+
+.icon:hover {
+    background-position-y: -100px;
+>>>>>>> 5f3a8d3b73d001c3e8a584c7796d278003eb5c80
 }

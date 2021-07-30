@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 video {
     display: block;
     width: 500px;
     margin: 0 auto;
     margin-top: 200px;
+=======
+video {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+>>>>>>> 5f3a8d3b73d001c3e8a584c7796d278003eb5c80
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
 }
@@ -41,3 +42,48 @@
     text-transform: lowercase;
     text-align: center;
 }
+=======
+* {
+    box-sizing: border-box;
+}
+
+.image-container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.bigimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.gallery {
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.opacity img {
+    filter: opacity(50%);
+}
+
+.blur img {
+    filter: blur(4px);
+}
+
+.invert img {
+    filter: invert(100%)
+}
+
+.descripton {
+    line-height: 30px;
+    text-transform: lowercase;
+    text-align: center;
+}
+>>>>>>> 5f3a8d3b73d001c3e8a584c7796d278003eb5c80

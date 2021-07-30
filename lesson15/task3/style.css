@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 iframe {
     display: block;
     width: 500px;
     height: 400px;
     margin: 100px auto;
+=======
+iframe {
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin: 100px auto;
+>>>>>>> 5f3a8d3b73d001c3e8a584c7796d278003eb5c80
 }

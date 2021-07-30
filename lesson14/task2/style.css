@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div.rectangle {
     background-color: blueviolet;
     width: 100px;
@@ -7,4 +8,15 @@ div.rectangle {
 p.text::first-letter {
     color: green;
     font-size: 24px;
+=======
+div.rectangle {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+p.text::first-letter {
+    color: green;
+    font-size: 24px;
+>>>>>>> 5f3a8d3b73d001c3e8a584c7796d278003eb5c80
 }
