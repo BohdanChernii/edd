@@ -9,6 +9,9 @@
 }
 
 .spinner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
 }
 
@@ -37,8 +40,9 @@
     height: 50px;
     border: 4px lightgreen solid;
     border-top-color: black;
-    margin-bottom: 8px;
+    margin: auto auto 8px auto;
     animation: circle 2s linear infinite;
+    text-align: center;
 }
 
 @keyframes circle {
