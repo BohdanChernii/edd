@@ -26,13 +26,13 @@ body {
 
 .text {
     font-family: Verdana, sans-serif;
-    margin: 8px;
+    padding: 8px;
     background-color: #faebd7;
     border-radius: 4px;
     margin: auto;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:599px) {
     .container {
         display: flex;
         width: 100%;
@@ -40,7 +40,7 @@ body {
     }
 }
 
-@media screen and (min-width:601px),
+@media screen and (min-width:600px),
 all and(max-width:899px) {
     .container {
         width: 100%;
