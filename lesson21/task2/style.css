@@ -25,13 +25,13 @@
     display: flex;
     width: 20%;
     background-color: #5af;
+    padding: 4px;
 }
 
 .idea {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 4px;
     text-overflow: ellipsis;
     white-space: nowrap;
     margin: auto;
