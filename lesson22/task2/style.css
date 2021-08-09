@@ -6,6 +6,11 @@ body {
     display: flex;
 }
 
+.container {
+    display: flex;
+    width: 100%;
+}
+
 .block {
     min-height: 200px;
     width: 100%;
@@ -30,6 +35,7 @@ body {
     background-color: #faebd7;
     border-radius: 4px;
     margin: auto;
+    text-transform: lowercase;
 }
 
 @media screen and (max-width:599px) {
@@ -40,8 +46,8 @@ body {
     }
 }
 
-@media screen and (min-width:600px),
-all and(max-width:899px) {
+@media screen and(min-width:599),
+all and (max-width:899px) {
     .container {
         width: 100%;
         display: flex;
