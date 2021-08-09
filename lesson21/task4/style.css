@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 html {
@@ -15,9 +14,13 @@ body {
     height: 100vh;
 }
 
-h1 {
-    text-align: center;
+.header {
     background: linear-gradient(60deg, red, orange);
+}
+
+h1 {
+    color: white;
+    text-align: center;
 }
 
 main {
@@ -48,6 +51,8 @@ main {
 .nav-list-link {
     padding: 0 0.5em;
     color: #fff;
+    text-decoration: none;
+    line-height: 2em;
 }
 
 .section {
