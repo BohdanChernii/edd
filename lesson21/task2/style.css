@@ -12,6 +12,7 @@
 .gallery {
     display: flex;
     width: 80%;
+    height: 100vh;
     background-color: #fa5;
 }
 
@@ -24,13 +25,14 @@
 .ideas {
     display: flex;
     width: 20%;
+    height: 100vh;
     background-color: #5af;
-    padding: 4px;
 }
 
 .idea {
     color: #fff;
     font-weight: 700;
+    padding: 4px;
     text-transform: uppercase;
     text-overflow: ellipsis;
     white-space: nowrap;
