@@ -2,14 +2,15 @@
 .header {
     height: $unit*7;
     background-color: $color-grey;
+    display: flex;
 }
 
 .nav-list {
-    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
+    list-style: none;
     height: $unit*7;
     color: $text-color-secondary;
     font-weight: 700;
