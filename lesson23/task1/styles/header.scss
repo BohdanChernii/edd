@@ -4,7 +4,7 @@
     background-color: $color-grey;
 }
 
-.nav_list {
+.nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -13,7 +13,7 @@
     height: $unit*7;
     color: $text-color-secondary;
     font-weight: 700;
-    &_item {
+    &__item {
         background-color: $color-secondary;
         padding: $unit;
         margin-left: $unit*2;
