@@ -11,8 +11,7 @@
     body {
         display: flex;
         flex-direction: column;
-        height: 100%;
-        position: relative;
+        height: 100vh;
     }
     
     .header {
@@ -24,14 +23,14 @@
         text-align: center;
     }
     
-    main {
+    .main {
         display: flex;
-        flex-direction: column;
-        height: 100%;
+        flex-wrap: wrap;
+        flex-grow: 1;
     }
     
     .navigation {
-        flex: 1;
+        width: 100%;
         padding: 0.5em;
     }
     
@@ -71,7 +70,7 @@
     }
     
     .section {
-        flex: 1;
+        width: 100%;
         padding: 0.5em;
         font-size: 1.25em;
     }
@@ -93,7 +92,7 @@
     }
     
     .news {
-        flex: 1;
+        width: 100%;
         padding: 0.5em;
     }
     
@@ -101,35 +100,26 @@
         background-color: #e5e5e5;
         padding: 0.5em;
         text-align: center;
-        bottom: 0;
     }
     
-    @media screen and (min-width:800px) {
-        main {
+    @media screen and (min-width:600px) {
+        .main {
             flex-direction: row;
+            flex-wrap: wrap;
         }
         .navigation {
-            flex: 1 50%;
+            width: 20%;
         }
         .section {
-            flex: 1 50%;
-        }
-        .news {
-            flex: 1 100%;
+            width: 80%;
         }
     }
     
     @media screen and (min-width:1200px) {
-        .main {
-            flex-direction: row;
-        }
-        .navigation {
-            flex: 1;
-        }
         .section {
-            flex: 3;
+            width: 60%;
         }
         .news {
-            flex: 1;
+            width: 20%;
         }
     }
