@@ -1,0 +1,135 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: Verdana, sans-serif;
+        color: #555;
+        font-size: 16px;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+    }
+    
+    .header {
+        background: linear-gradient(60deg, red, orange);
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .navigation {
+        flex: 1;
+        padding: 0.5em;
+    }
+    
+    .navigation .nav-list {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .nav-list-item {
+        background-color: #808080;
+        height: 2em;
+        color: #fff;
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+    
+    .nav-list-link {
+        display: block;
+        padding: 0 0.5em;
+        color: #fff;
+        text-decoration: none;
+        line-height: 2em;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    picture {
+        display: flex;
+    }
+    
+    img {
+        margin: auto;
+        display: flex;
+        max-width: 100%;
+    }
+    
+    .section {
+        flex: 1;
+        padding: 0.5em;
+        font-size: 1.25em;
+    }
+    
+    .section__header {
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+    .section .units-list {
+        line-height: 1.75em;
+    }
+    
+    .css-units {
+        color: #8d0000;
+        background-color: #e5e5e5;
+        font-size: 1.125em;
+        font-weight: 700;
+    }
+    
+    .news {
+        flex: 1;
+        padding: 0.5em;
+    }
+    
+    .footer {
+        background-color: #e5e5e5;
+        padding: 0.5em;
+        text-align: center;
+        bottom: 0;
+    }
+    
+    @media screen and (min-width:800px) {
+        main {
+            flex-direction: row;
+        }
+        .navigation {
+            flex: 1 50%;
+        }
+        .section {
+            flex: 1 50%;
+        }
+        .news {
+            flex: 1 100%;
+        }
+    }
+    
+    @media screen and (min-width:1200px) {
+        .main {
+            flex-direction: row;
+        }
+        .navigation {
+            flex: 1;
+        }
+        .section {
+            flex: 3;
+        }
+        .news {
+            flex: 1;
+        }
+    }
