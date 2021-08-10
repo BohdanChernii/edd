@@ -1,7 +1,6 @@
 .header {
   height: 56px;
   background-color: #eee;
-  display: flex;
 }
 
 .nav-list {
@@ -32,8 +31,8 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 90%;
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
