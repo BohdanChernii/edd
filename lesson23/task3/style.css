@@ -5,6 +5,7 @@ header {
 
 .menu {
   margin: 0 0 0 3em;
+  padding: 0;
   text-transform: uppercase;
   cursor: pointer;
   display: flex;
