@@ -20,7 +20,6 @@ header {
 }
 .menu__item_active {
   color: yellow;
-  padding: 0;
   margin: 0;
 }
 .menu .submenu {
@@ -31,6 +30,7 @@ header {
   min-width: 120px;
   padding: 0 8px;
   z-index: 1;
+  position: absolute;
   display: none;
 }
 .menu .submenu__item {
