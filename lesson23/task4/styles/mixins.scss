@@ -1,0 +1,11 @@
+@mixin for-tablets {
+    @media screen and(min-width: 600px) {
+        @content
+    }
+}
+
+@mixin for-pc {
+    @media screen and(min-width: 1200px) {
+        @content
+    }
+}

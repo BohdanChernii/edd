@@ -1,0 +1,58 @@
+@import 'mixins.scss';
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+        text-transform: lowercase;
+    }
+    .navigation {
+        background-color: #ff7f50;
+    }
+    .products-list {
+        background-color: #006400;
+    }
+    .news {
+        background-color: #0ff;
+    }
+    @include for-tablets {
+        flex-direction: row;
+        flex-wrap: wrap;
+        .navigation {
+            width: 50%;
+        }
+        .products-list {
+            width: 50%;
+        }
+        .news {
+            width: 100%;
+        }
+    }
+    @include for-pc {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .navigation {
+            width: 100%;
+        }
+        .products-list {
+            width: 100%;
+        }
+        .news {
+            width: 100%;
+        }
+    }
+}
+
+.text {
+    font-family: Verdana, sans-serif;
+    background-color: #faebd7;
+    padding: 8px;
+    border-radius: 4px;
+}
